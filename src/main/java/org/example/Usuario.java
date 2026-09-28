@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Usuario {
@@ -12,13 +12,15 @@ public class Usuario {
 Exemplo de saída: "O lanche Xis-Bacon custa R$ 28.50 \n"
 */
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+
+        double valorLanch;
+        String nomeLanch;
 
         System.out.println("Digite o nome do lanche:");
-        String nomeLanch = sc.nextLine();
+        nomeLanch = sc.nextLine();
 
         System.out.println("Digite o valor do lanch:");
-        double valorLanch = sc.nextDouble();
+        valorLanch = sc.nextDouble();
 
         if (valorLanch > 30) {
             valorLanch = valorLanch - 5;

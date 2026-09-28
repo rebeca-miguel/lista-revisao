@@ -1,6 +1,6 @@
 package org.example.exercicio;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc =new Scanner(System.in);
-        sc.useLocale(Locale.US);
 
         for (int i = 1; i <= 3; i++) {
 
